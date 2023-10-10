@@ -1,0 +1,34 @@
+table, td, th   {
+    border : 3px #CCFFFF ridge;
+    padding: 5px 10px;
+}
+table td, img{
+    text-align: center;
+}
+th {
+    color: #FF7519;
+    background-color: #D6FFC2;
+}
+caption {
+    font-weight: 800;
+    color: red;
+    text-align: center;
+}
+li {
+    text-align: left;
+}
+.fondoCeleste   {
+    background-color: #B2FFFF;
+}
+#celdaA1{
+    color: green;
+    background-color: darksalmon;
+}
+#celdaB1{
+    color: green;
+    background-color: greenyellow;
+}
+#celdaC1{
+    color: orangered;
+    background-color: lightsteelblue;
+}
