@@ -8,7 +8,9 @@
         <table class="table">
             <caption class="caption">TABLA A</caption>
             <tr>
-                <th id="celdaA1">LAS 5 VOCALES</th>
+                <!--Las celdas "th" son para los títulos, concretamente "LAS 5 VOCALES"
+                es un título especial, por ello le puse un color distinto-->
+                <th id="celdaA1">LAS&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;VOCALES</th>
                 <th scope="col">COLUMNA 1</th>
                 <th scope="col">COLUMNA 2</th>
             </tr>
@@ -19,7 +21,9 @@
             </tr>
             <tr>
                 <th scope="row">FILA 2</th>
-                <td>I</td>
+                <!--"colspan" sirve para especificar el número de columnas
+                que ocupará un elemento-->
+                <td colspan="2">I</td>
             </tr>
             <tr>
                 <th scope="row">FILA 3</th>
@@ -27,5 +31,98 @@
                 <td>U</td>
             </tr>
         </table>
-        
+        <br>
+        <table>
+            <caption class="caption">TABLA B</caption>
+            <tr>
+                <th id="celdaB1">LOS&nbsp;&nbsp;&nbsp;DIAS&nbsp;&nbsp;&nbsp;LABORABLES</th>
+                <th scope="col">COLUMNA 1</th>
+                <th scope="col">COLUMNA 2</th>
+            </tr>
+            <tr>
+                <th scope="row">FILA 1</th>
+                <td>LUNES</td>
+                <td>MARTES</td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 2</th>
+                <td colspan="2">MIÉRCOLES</td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 3</th>
+                <!--"rowspan" sirve para poner el número de filas que
+                ocupará un elemento, no hace falta ponerlo dos veces-->
+                <td rowspan="2">VIERNES</td>
+                <td>VIERNES</td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 4</th>
+                <td>SÁBADOS</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <caption class="caption">TABLA C</caption>
+            <tr>
+                <th id="celdaC1">PROGRAMACIÓN&nbsp;&nbsp;&nbsp;CULTURAL</th>
+                <th scope="col">COLUMNA 1</th>
+                <th scope="col">COLUMNA 2</th>
+            </tr>
+            <tr>
+                <th scope="row">FILA 1</th>
+                <!--Creamos 2 "td" y les asignamos la clase "fondoCeleste"
+                para el color del fondo y dentro del "td" añadimos listas
+                ordenadas y desordenadas-->
+                <td class="fondoCeleste">
+                    <ul>
+                        <li>Proyección película <b>&lt;Avatar&gt;.</b></li>
+                        <li>Debate sobre alienígenas.</li>
+                        <li>Documental &quot;No estamos solos&quot;.</li>
+                    </ul>
+                </td>
+                <td class="fondoCeleste">
+                    <ol>
+                        <li>Cata de vinos finos, olorosos &amp; cream.</li>
+                        <li>Elaboración queso payoyo.</li>
+                        <li>Receta atún encebollado.</li>
+                        <li>Degustación pasteles árabes.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 2</th>
+                <td colspan="2">
+                    <img src="imagenes/chiste.jpg">
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 3</th>
+                <td rowspan="2">
+                    <ol>
+                        <li>Deporte en la calle.
+                            <!--Metemos listas desordenadas dentro de las ordenadas-->
+                            <ul>
+                                <li>Maratón popular.</li>
+                                <li>Carrera ciclista.</li>
+                            </ul>
+                        </li>
+                        <li>Excursión por la sierra.
+                            <!--Metemos listas desordenadas dentro de las ordenadas-->
+                            <ul>
+                                <li>Subida al pico Algibe.</li>
+                                <li>Bajada al barranco Hondo.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td><!--Termina el td-->
+                <td>POR DETERMINAR</td>
+            </tr>
+            <tr>
+                <th scope="row">FILA 4</th>
+                <td>POR DETERMINAR</td>
+            </tr>
+            <tr>
+                <td colspan="3">Visita LMSGI en <a href="fedoce.milaulas.com" target="_blank">fedoce.milaulas.com</a></td>
+            </tr>
+        </table>
     </body>
