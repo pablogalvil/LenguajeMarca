@@ -1,0 +1,67 @@
+/****************** SELECTOR ETIQUETA ***********************/
+h3 {
+    color: darkblue;
+    font: bold 20px Verdana,Arial;
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+li {
+    color: blue;
+    font: italic bold 14px Verdana,Arial;
+    text-align: left;
+}
+img {
+    border: 3px cyan ridge;
+    padding: 10px 5px 10px 5px;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+}
+th{
+    background-color: yellow;
+    border: 3px blue ridge;
+}
+/****************** SELECTOR DESCENDENTE ***********************/
+ul li span {
+    color: red;
+    font-size: 1.2em;
+}
+/****************** SELECTOR DE CLASE ***********************/
+.edificio {
+    background-color: salmon;
+    text-align: center;
+    padding: 5px 10px;
+}
+.estatua {
+    background-color: teal;
+    padding: 5px 10px;
+}
+.tituloInforma {
+    display: inline-block;
+    background-color: salmon;
+    text-align: justify;
+    padding: 5px;
+    margin: 15px;
+}
+/****************** SELECTOR DE ID ***********************/
+#identif1 {
+    color: red;
+}
+#identif2 {
+    color: green;
+}
+#identif3 {
+    color: indigo;
+}
+#identif4 {
+    color: gold;
+    font-weight: 600;
+}
