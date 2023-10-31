@@ -1,0 +1,101 @@
+body {
+	background-color: #ccffff;
+}
+h1 {
+	color:blue;
+}
+h2 {
+	color: green;
+}
+h3 {
+	color: #ff3300;
+
+}
+h4 {
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;}
+
+table {
+	margin: 20px 50px;
+}
+table, td, th {
+			border: 1px solid black;
+			text-align: center;
+			padding: 3px;
+			background-color:#99ffbb;
+			margin-left: auto;
+			margin-right: auto;
+		}
+th {
+	color: blue;
+	background-color: cyan;
+	text-align:center;
+}
+
+td{
+	padding: 5px 5px;
+	text-align:center;
+	font-weight: 900;
+	font-size: 1.3em;
+	height: 50px;
+}
+.inicialesProfe {
+	font-size: .6em ;
+	font-weight: 400;
+	font-style: italic;
+}
+.cabeceraFila{
+	font-weight: 600;
+	font-size: 1.1em;	
+	background-color: orange;
+}
+.cabeceraColum{
+	font-weight: 400;
+	font-size: 1.1em;	
+	font-style: italic;
+	background-color: tomato;
+	padding: 5px 15px;
+}
+td.alinIzqda {
+
+	text-align: left;
+}
+
+.fdc {
+	background-color: cyan;
+}
+.mse{
+	background-color: green;
+
+}
+.fpg{
+	background-color: lightpink;
+}
+.rbr {
+	background-color: yellow;
+}
+.jcb {
+	background-color: GreenYellow ;
+}
+#descanso {
+	font-size: 1em;
+	font-weight: 400;
+	background-color: silver;
+}
+#profesores td, #modulos td{
+	font-size: 1em;
+	font-weight: 400;
+	background-color: LightSteelBlue ;
+}
+
+#modulos td dt {
+	color: orangered;
+}
+#profesores  th{
+	color:blue;
+	background-color: LightSteelBlue;
+}
+dt>dd {
+	text-transform: uppercase;
+}
