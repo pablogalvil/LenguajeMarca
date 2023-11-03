@@ -1,10 +1,15 @@
 <!DOCTYPE html>
+<!--Lang sirve para especificar el lenguaje que vas a usar-->
 <html lang="es">
     <head>
+        <!--Para las tildes-->
         <meta charset="uft-8">
+        <!--Tamaño de la página-->
         <meta name="viewport" content="width=device-width, user-scalable=no">
+        <!--Link con el archivo css-->
         <link rel="stylesheet" href="css/ejercicio08.css" type="text/css">
         <title>ejercicio08</title>
+        <!--css dentro del html-->
         <style>
             th {
                 background-color: gold;
@@ -20,20 +25,28 @@
     <body>
         <h3>Ruta turistica por la provincia de <i>Cadiz</i></h3>
         <p> La provincia de Cádiz es muy diversa, con comarcas que merecen ser visitadas, desde la campiña de Jerez de la Frontera a sus pueblos del Campo de Gibraltar o un recorrido por los pueblos blancos y descansar en algún lugar de la costa entre Tarifa hasta Sanlúcar de Barrameda. Todo ello sin olvidar su capital, que guarda en sus murallas la cultura y tradiciones que la hacen distinta, como a sus gentes</p>
+        <!--Empieza la tabla-->
         <table>
+            <!--1ª Fila-->
             <tr>
+                <!--Cada celda tiene un id-->
                 <th id="identif1" scope="col">CIUDAD</th>
                 <th id="identif2" scope="col">TIPO</th>
+                <!--Algunas celdas tienen colores especiales-->
                 <th scope="col" style="background-color: #7fffd4;">IMAGEN</th>
                 <th id="identif3" scope="col">INFORMACIÓN</th>
                 <th scope="col" style="background-color: rgb(127,255,212);">HORARIO</th>
             </tr>
+            <!--2ª Fila-->
             <tr>
+                <!--rowspan sirve para que ocupe más de una fila-->
                 <td rowspan="3">EL PUERTO DE SANTA MARÍA</td>
                 <td id="identif4" class="estatua">ESTATUA</td>
+                <!--Las imagenes llevan a wikipedia cuando pinchas en ellas-->
                 <td class="foto"><a target="_blank" href="http://es.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa#cite_ref14"><img src="imagenes/fotosPtoStaM/alfonso.jpg" alt="Imagen Estatua Alfonso X El Sabio" style="height: 200px;"></a></td>
                 <td>
                     <ul>
+                        <!--span no sirve para nada realmente, sirve solo para poner un estilo distinto a una palabra o conjunto de palabras-->
                         <li>Estatua en bronce de <span>Alfonso X El Sabio</span></li>
                         <li>Conquistó la ciudad en 1270</li>
                         <li>Murió en 1284</li>
@@ -41,17 +54,20 @@
                 </td>
                 <td>CUALQUIER HORA</td>
             </tr>
+            <!--3ª Fila-->
             <tr>
                 <td class="mapa">MAPA</td>
                 <td class="foto"><a target="_blank" href="https://es.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa#Edad_Moderna"><img src="imagenes/fotosPtoStaM/juandelacosa.jpg" alt="Imagen Juan de la Cosa" style="width: 150px;"></a></td>
                 <td>
                     <ul>
                         <li>Mapa elaborado por Juan de la Cosa</li>
+                        <!--span no sirve para nada realmente, sirve solo para poner un estilo distinto a una palabra o conjunto de palabras-->
                         <li>Fue piloto de <span>Colón</span> en 1492</li>
                         <li>Autor del primer mapa donde se reconoce América</li>
                     </ul>
                 </td>
                 <td>
+                    <!--em sirve para enfatizar el texto-->
                     <em class="mapa">En el museo Municipal</em>
                     <ul>
                         <li>Mañanas: De 10h a 13 horas</li>
@@ -59,10 +75,12 @@
                     </ul>
                 </td>
             </tr>
+            <!--4ª Fila-->
             <tr>
                 <td class="edificio">EDIFICIO</td>
                 <td class="foto"><a target="_blank" href="http://es.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa#Castillo_de_San_Marcos"><img src="imagenes/fotosPtoStaM/sanmarcos.JPG" alt="Imagen Castillo de S.Marcos" style="width: 150px;"></a></td>
                 <td>
+                    <!--em sirve para enfatizar el texto-->
                     <em class="tituloInforma">Castillo de S.Marcos</em>
                     <ul>
                         <li>Originalmente, una mezquita, fue fortificada en 1264</li>
@@ -77,11 +95,13 @@
                     </ul>
                 </td>
             </tr>
+            <!--5ª Fila-->
             <tr>
                 <td>CÁDIZ</td>
                 <td class="edificio">EDIFICIO</td>
                 <td class="foto"><a target="_blank" href="https://es.wikipedia.org/wiki/C%C3%A1diz#cite_ref66"><img src="imagenes/fotosPtoStaM/aduana.jpg" alt="Imagen de la Sede de la Diputación Provincial de Cádiz"></a></td>
                 <td>
+                    <!--em sirve para enfatizar el texto-->
                     <em class="tituloInforma">Sede de la Diputación Provincial de Cádiz</em>
                     <ul>
                         <li>Estilo neoclásico</li>
@@ -91,5 +111,6 @@
                 <td>HORARIO DE OFICINAS</td>
             </tr>
         </table>
+        <!--Fin de la tabla-->
     </body>
 </html>
