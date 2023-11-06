@@ -40,6 +40,9 @@ td{
 	font-size: 1.3em;
 	height: 50px;
 }
+.arriba{
+	text-align: center;
+}
 .inicialesProfe {
 	font-size: .6em ;
 	font-weight: 400;
@@ -91,6 +94,7 @@ td.alinIzqda {
 
 #modulos td dt {
 	color: orangered;
+	text-align: left;
 }
 #profesores  th{
 	color:blue;

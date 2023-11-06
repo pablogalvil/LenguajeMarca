@@ -24,13 +24,16 @@
         <h3>El Puerto de Santa María (Cádiz)</h3>
         <br>
         <h2>ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED</h2>
+        <!--Empieza la primera tabla, 1º ASIR horario-->
         <table>
+            <!--Encabezado-->
             <thead>
                 <tr>
                     <th scope="col" rowspan="2"><img src="imagenes/paloma.png" height="70px" width="95px"></th>
                     <th scope="col" colspan="5">HORARIO 1º ASIR - 2018/2019</th>
                 </tr>
                 <tr>
+                    <!--Dias de la semana-->
                     <td class="cabeceraColum">LUNES</td>
                     <td class="cabeceraColum">MARTES</td>
                     <td class="cabeceraColum">MIERCOLES</td>
@@ -41,7 +44,86 @@
             </thead>
             <tr>
                 <td class="cabeceraFila">1ª h</td>
-                <td class="mse" rowspan="2">ISO </td>
+                <!--Clases-->
+                <td class="mse" rowspan="2"><a href="#ISO">ISO</a><br><span class="inicialesProfe">(msef)</span></td>
+                <td class="fpg" rowspan="3"><a href="#PAR">PAR</a><br><span class="inicialesProfe">(fpg)</span></td>
+                <td class="jcb" rowspan="3"><a href="#FOL">FOL</a><br><span class="inicialesProfe">(jcb)</span></td>
+                <td class="fpg" rowspan="3"><a href="#PAR">PAR</a><br><span class="inicialesProfe">(fpg)</span></td>
+                <td class="mse" rowspan="3"><a href="#ISO">ISO</a><br><span class="inicialesProfe">(msef)</span></td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">2ª h</td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">3ª h</td>
+                <!--Clases-->
+                <td class="fdc"><a href="#LMSGI">LMSGI</a><br><span class="inicialesProfe">(fdc)</span></td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">R</td>
+                <!--Recreo tiene una clase especial y puse &nbsp; para que ponga espacios-->
+                <td id="descanso" colspan="5">R&nbsp;E&nbsp;C&nbsp;R&nbsp;E&nbsp;O</td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">4ª h</td>
+                <!--Clases-->
+                <td class="fdc" rowspan="3"><a href="#LMSGI">LMSGI</a><br><span class="inicialesProfe">(fdc)</span></td>
+                <td class="mse" rowspan="3"><a href="#ISO">ISO</a><br><span class="inicialesProfe">(msef)</span></td>
+                <td class="mse" rowspan="3"><a href="#FHW">FHW</a><br><span class="inicialesProfe">(msef)</span></td>
+                <td class="fdc" rowspan="3"><a href="#GBD">GBD</a><br><span class="inicialesProfe">(fdc)</span></td>
+                <td class="fdc" rowspan="3"><a href="#GBD">GBD</a><br><span class="inicialesProfe">(fdc)</span></td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">5ª h</td>
+            </tr>
+            <tr>
+                <td class="cabeceraFila">6ª h</td>
+            </tr>
+            <!--Pie de página, al reves que el encabezado-->
+            <tfoot>
+                <tr>
+                    <th scope="col" rowspan="2"><img src="imagenes/ordenador.gif" height="90px" width="105px"></th>
+                    <!--Dias de la semana-->
+                    <td class="cabeceraColum">LUNES</td>
+                    <td class="cabeceraColum">MARTES</td>
+                    <td class="cabeceraColum">MIERCOLES</td>
+                    <td class="cabeceraColum">JUEVES</td>
+                    <td class="cabeceraColum">VIERNES</td>
+                </tr>
+                <tr>
+                    <th scope="col" colspan="5">HORARIO 1º ASIR - 2018/2019</th>
+                </tr>
+            </tfoot>
+        </table>
+        <!--He creado una nueva clase en el css para poner centrado el texto de ir arriba-->
+        <p class="arriba"><a href="#inicio">Volver arriba</a></p>
+        <br>
+        <!--Empieza la segunda tabla, 2º ASIR horario-->
+        <table>
+            <!--Encabezado-->
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2"><img src="imagenes/paloma.png" height="70px" width="95px"></th>
+                    <th scope="col" colspan="5">HORARIO 2º ASIR - 2018/2019</th>
+                </tr>
+                <tr>
+                    <!--Dias de la semana-->
+                    <td class="cabeceraColum">LUNES</td>
+                    <td class="cabeceraColum">MARTES</td>
+                    <td class="cabeceraColum">MIERCOLES</td>
+                    <td class="cabeceraColum">JUEVES</td>
+                    <td class="cabeceraColum">VIERNES</td>
+                </tr>
+                
+            </thead>
+            <tr>
+                <td class="cabeceraFila">1ª h</td>
+                <!--Clases-->
+                <td class="rbr" rowspan="3"><a href="#EIE">EIE</a><br><span class="inicialesProfe">(rbr)</span></td>
+                <td class="fdc" rowspan="3"><a href="#ASGBD">ASGBD</a><br><span class="inicialesProfe">(fdc)</span></td>
+                <td class="fdc" rowspan="3"><a href="#IAW">IAW</a><br><span class="inicialesProfe">(fdc)</span></td>
+                <td class="mse" rowspan="3"><a href="#ASO">ASO</a><br><span class="inicialesProfe">(msef)</span></td>
+                <td class="fpg" rowspan="3"><a href="#SRI">SRI</a><br><span class="inicialesProfe">(fpg)</span></td>
             </tr>
             <tr>
                 <td class="cabeceraFila">2ª h</td>
@@ -51,16 +133,211 @@
             </tr>
             <tr>
                 <td class="cabeceraFila">R</td>
+                <!--Recreo tiene una clase especial y puse &nbsp; para que ponga espacios-->
+                <td id="descanso" colspan="5">R&nbsp;E&nbsp;C&nbsp;R&nbsp;E&nbsp;O</td>
             </tr>
             <tr>
                 <td class="cabeceraFila">4ª h</td>
+                <!--Clases-->
+                <td class="rbr" rowspan="1"><a href="#EIE">EIE</a><br><span class="inicialesProfe">(rbr)</span></td>
+                <td class="fpg" rowspan="3"><a href="#HLC">HLC</a><br><span class="inicialesProfe">(fpg)</span></td>
+                <td class="fdc" rowspan="1"><a href="#IAW">IAW</a><br><span class="inicialesProfe">(fdc)</span></td>
+                <td class="fpg" rowspan="3"><a href="#SRI">SRI</a><br><span class="inicialesProfe">(fpg)</span></td>
+                <td class="mse" rowspan="3"><a href="#ASO">ASO</a><br><span class="inicialesProfe">(msef)</span></td>
             </tr>
             <tr>
                 <td class="cabeceraFila">5ª h</td>
+                <!--Clases-->
+                <td class="fpg" rowspan="2"><a href="#SAD">SAD</a><br><span class="inicialesProfe">(fpg)</span></td>
+                <td class="fpg" rowspan="2"><a href="#SAD">SAD</a><br><span class="inicialesProfe">(fpg)</span></td>
             </tr>
             <tr>
                 <td class="cabeceraFila">6ª h</td>
             </tr>
+            <!--Pie de página, al reves que el encabezado-->
+            <tfoot>
+                <tr>
+                    <th scope="col" rowspan="2"><img src="imagenes/ordenador.gif" height="90px" width="105px"></th>
+                    <!--Dias de la semana-->
+                    <td class="cabeceraColum">LUNES</td>
+                    <td class="cabeceraColum">MARTES</td>
+                    <td class="cabeceraColum">MIERCOLES</td>
+                    <td class="cabeceraColum">JUEVES</td>
+                    <td class="cabeceraColum">VIERNES</td>
+                </tr>
+                <tr>
+                    <th scope="col" colspan="5">HORARIO 2º ASIR - 2018/2019</th>
+                </tr>
+            </tfoot>
         </table>
+        <!--Ir al inicio-->
+        <p class="arriba"><a href="#inicio">Volver arriba</a></p>
+        <br>
+        <!--Tabla profesores-->
+        <table id="profesores">
+            <!--Título de la tabla-->
+            <caption>PROFESORADO</caption>
+            <tr>
+                <th scope="row">rbr</th>
+                <td>Rosa Barroso Ramirez</td>
+            </tr>
+            <tr>
+                <th scope="row">jcb</th>
+                <td>Julia Cuenca Beteta</td>
+            </tr>
+            <tr>
+                <th scope="row">fdc</th>
+                <td>Fernando Domínguez Cerejido</td>
+            </tr>
+            <tr>
+                <th scope="row">fpg</th>
+                <td>Francisco Periáñez Gómez</td>
+            </tr>
+            <tr>
+                <th scope="row">msef</th>
+                <td>Miguel Sainz-Ezquerra Foces</td>
+            </tr>
+        </table>
+        <!--Ir al inicio-->
+        <p class="arriba"><a href="#inicio">Volver arriba</a></p>
+        <br>
+        <p>Me falta un texto aqui</p>
+        <!--Tabla modulos-->
+        <table id="modulos">
+            <!--Título de la tabla-->
+            <caption>MODULO PROFESIONALES</caption>
+            <tr>
+                <!--Solo tiene 1 td, he cambiado el css para que el texto del dt se ponga en la izquierda-->
+                <td>
+                    <!--Contenedor para definiciones-->
+                    <dl>
+                        <!--Cada dt tiene un id creado dentro-->
+                        <dt id="ASGBD">ASGBD</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">ADMINISTRACIÓN DE SISTEMAS GESTORES DE BASES DE DATOS
+                            <!--Lista ordenada-->
+                            <ol>
+                                <li>Instalación y configuración de un sistema gestor de base de datos.</li>
+                                <li>Acceso a la información.</li>
+                                <li>Construcción de guiones de administración.</li>
+                                <li>Optimización del rendimiento del sistema.</li>
+                                <li>Aplicación de los criterios de disponibilidad. Bases de datos distribuidas y replicadas.</li>
+                            </ol>
+                            <!--Termina el dd-->
+                        </dd>
+                        <dt id="ASO">ASO</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">ADMINISTRACIÓN DE SISTEMAS OPERATIVOS</dd>
+                        <dt id="GBD">GBD</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">GESTIÓN DE BASES DE DATOS
+                            <!--Lista ordenada-->
+                            <ol>
+                                <li>Introducción.</li>
+                                <li>Modelo Entidad-Interrelación.</li>
+                                <li>Modelo Relacional.</li>
+                                <li>SQL: Consultas.</li>
+                                <li>SQL: Definición.</li>
+                                <li>SQL: Actualización.</li>
+                                <li>Gestión de la seguridad.</li>
+                                <li>Proyecto BD.</li>
+                            </ol>
+                            <!--Termina el dd-->
+                        </dd>
+                        <dt id="FHW">FHW</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">FUNDAMENTOS HARDWARE</dd>
+                        <dt id="FOL">FOL</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">FORMACIÓN Y ORIENTACIÓN LABORAL</dd>
+                        <dt id="IAW">IAW</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">IMPLANTACIÓN DE APLICACIONES WEB
+                           <!--Lista ordenada-->
+                           <ol>
+                                <li>Preparación del entorno de desarrollo.</li>
+                                <li>Implantación y configuración de gestores de contenidos.</li>
+                                <li>Generación de doc.web con guiones de serv.(PHP I -básico-).</li>
+                                <li>Generación de doc.web con guiones de serv. (PHP II -arrays, funciones, ...-).</li>
+                                <li>Generación de doc.web con guiones de serv. (PHP III -cookies, sesiones, ...-).</li>
+                                <li>Generación de documentos web con acceso a BDD.</li>
+                                <li>Administración de gestores de contenidos.</li>
+                                <li>Modificación de gestores de contenidos.</li>
+                            </ol>
+                            <!--Termina el dd--> 
+                        </dd>
+                        <dt id="ISO">ISO</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">IMPLANTACIÓN DE SISTEMAS OPERATIVOS</dd>
+                        <dt id="PAR">PAR</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">PLANIFICACIÓN Y ADMINISTRACIÓN DE REDES</dd>
+                        <dt id="LMSGI">LMSGI</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">IMPLANTACIÓN DE APLICACIONES WEB
+                            <!--Lista ordenada-->
+                            <ol>
+                                <li>XHTML.</li>
+                                <li>CSS.</li>
+                                <li>XML.</li>
+                                <li>Validación de documentos XML.</li>
+                                <li>Conversión y adaptación de documentos XML.</li>
+                                <li>Almacenamiento de la información.</li>
+                                <li>Sindicación de contenidos</li>
+                                <li>Sistemas de gestión empresarial.</li>
+                            </ol>
+                            <!--Termina el dd-->
+                        </dd>
+                        <dt id="SAD">SAD</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">SEGURIDAD Y ALTA DISPONIBILIDAD</dd>
+                        <dt id="SRI">SRI</dt>
+                        <!--Cambio el style para que no se ponga en el centro el texto-->
+                        <dd style="text-align: left;">SERVICIOS DE RED E INTERNET</dd>
+                    </dl>
+                    <!--Termina el dl-->
+                </td>
+            </tr>
+            <!--Termina la tabla-->
+        </table>
+        <!--Ir al inicio-->
+        <p class="arriba"><a href="#inicio">Volver arriba</a></p>
+        <br>
+        <!--Pongo muchos breaks para que al usar el id se aprecie la posición a la que me lleva-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--Termina el ejercicio-->
     </body>
 </html>
