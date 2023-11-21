@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--Para especificar el lenguaje en español-->
+<html lang="es">
+    <!--Abrimos  la cabezera que contendra tanto el titulo de la pagina, como  la alineacion de la h1 y h3 y que este subrayado-->
+    <head>
+        <!--Para tildes-->
+        <meta charset="utf-8">
+        <!--Para ajustar el tamaño de la página al dispositivo-->
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Examen</title>
+        <link rel= "stylesheet" href="css/estiloExamen2020.css" type="text/css">
+        <script>
+            function mensaje01() {
+            alert("Av****uz!");
+            }
+            function mensaje02() {
+            alert("**llo!");
+            }
+            function mensaje03() {
+            alert("h**c*n!");
+            }
+            function mensaje04() {
+            alert("pa**!");
+            }
+            function mensaje05() {
+            alert("*ord*!");
+            }
+            function mensaje06() {
+            alert("ur**ll*!");
+            }
+        </script>
+    </head>
+    <!--Titulo de la pagina-->
+    <h1>Crucigrama (animales)</h1>
+    <body>
+
+        <!--Segundo div-->
+        <div id="imagenes">
+            <abbr title="Ave grande que no vuela, sino que es corredora."><img  onclick="mensaje01" src="Imagenes/avestruz.gif" alt="Avestruz"></abbr>
+            <abbr title="Se crían principalmente por su carne y por sus huevos."><img onclick="mensaje02" src="Imagenes/gallo.gif" alt="Avestruz"></abbr>
+            <abbr title="Tienen alas finas, acentuadas, que les permiten alcanzar velocidades extremadamente altas."><img onclick="mensaje03" src="Imagenes/halcon.gif" alt="Avestruz"></abbr>
+            <abbr title="Son aves anseriformes acuáticas de pico aplanado."><img onclick="mensaje04" src="Imagenes/pato.gif" alt="Avestruz"></abbr>
+            <abbr title="También se conoce como zorzal"><img onclick="mensaje05" src="Imagenes/tordo.gif" alt="Avestruz"></abbr>
+            <abbr title=" Ave galliforme de unos 60 cm de altura, de plumaje pardo negruzco, patas y pico negros."><img onclick="mensaje06" src="Imagenes/urogallo.gif" alt="Avestruz"></abbr>
+        </div>
+        <hr>
+        <!--Creamos el boton para volver a la otra página-->
+        <div class="enlace">
+            <a href="Examen.html" class="button">Volver al crucigrama sin resolver</a>
+        </div>
+        <!--Tercer div-->
+        <div id="crucigrama">
+            <table>
+                <!--Primera fila-->
+                <tr>
+                    <td>A</td>
+                    <td>V</td>
+                    <td>E</td>
+                    <td>S</td>
+                    <td>T</td>
+                    <td>R</td>
+                    <td>U</td>
+                    <td>Z</td>
+                </tr>
+                <!--Segunda fila-->
+                <tr>
+                    <td class="sombra" rowspan="2" colspan="4"></td>
+                    <td>O</td>
+                    <td class="sombra" rowspan="3"></td>
+                    <td>R</td>
+                    <td class="sombra" rowspan="7"></td>
+                </tr>
+                <!--Tercera fila-->
+                <tr>
+                    <td>R</td>
+                    <td>O</td>
+                </tr>
+                <!--Cuarta fila-->
+                <tr>
+                    <td class="sombra"></td>
+                    <td>G</td>
+                    <td class="sombra" colspan="2"></td>
+                    <td>D</td>
+                    <td>G</td>
+                </tr>
+                <!--Quinta fila-->
+                <tr>
+                    <td>H</td>
+                    <td>A</td>
+                    <td>L</td>
+                    <td>C</td>
+                    <td>O</td>
+                    <td>N</td>
+                    <td>A</td>
+                </tr>
+                <!--Sexta fila-->
+                <tr>
+                    <td class="sombra" rowspan="3"></td>
+                    <td>L</td>
+                    <td class="sombra" rowspan="2" colspan="4"></td>
+                    <td>L</td>
+                </tr>
+                <!--Septima fila-->
+                <tr>
+                    <td>L</td>
+                    <td>L</td>
+                </tr>
+                <!--Octava fila-->
+                <tr>
+                    <td>O</td>
+                    <td class="sombra"></td>
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>O</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>

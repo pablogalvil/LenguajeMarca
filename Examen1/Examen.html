@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--Para especificar el lenguaje en español-->
+<html lang="es">
+    <!--Abrimos  la cabezera que contendra tanto el titulo de la pagina, como  la alineacion de la h1 y h3 y que este subrayado-->
+    <head>
+        <!--Para tildes-->
+        <meta charset="utf-8">
+        <!--Para ajustar el tamaño de la página al dispositivo-->
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Examen</title>
+        <link rel= "stylesheet" href="css/estiloExamen2020.css" type="text/css">
+        <script>
+            function mensaje01() {
+            alert("Av****uz!");
+            }
+            function mensaje02() {
+            alert("**llo!");
+            }
+            function mensaje03() {
+            alert("h**c*n!");
+            }
+            function mensaje04() {
+            alert("pa**!");
+            }
+            function mensaje05() {
+            alert("*ord*!");
+            }
+            function mensaje06() {
+            alert("ur**ll*!");
+            }
+        </script>
+    </head>
+    <!--Titulo de la pagina-->
+    <h1>Crucigrama (animales)</h1>
+    <body>
+        <!--Primer div-->
+        <div id="normas">
+            <!--Lista ordenada-->
+            <ol>
+                <li><b>Objetivos</b>
+                    <!--Lista desordenada-->
+                    <ul>
+                        <li>Adivinar el nombre de <b>seis aves</b>.</li>
+                        <li>Colocar el nombre de las aves en el <b>crucigrama</b>, colocando una letra en cada casilla, sin dejar ninguna en blanco.</li>
+                    </ul>
+                </li>
+                <li><b>Normas</b>
+                    <!--Lista desordenada-->
+                    <ul>
+                        <li>Los nombres se escriben de <span class="destacadoAzul">izquierda a derecha</span>, o de <span class="destacadoAzul">arriba hacia abajo</span>.</li>
+                        <li>Algunas (no todas) de las celdas que son la intersección de una fila y una columna contienen una letra que pertenece a los dos nombres que deben contener.</li>
+                        <li>Y puesto que pueden aparecer vocales pertenecientes a palabras distintas, <span class="destacadoAzul">todas las vocales se escribirán sin tilde</span>.</li>
+                    </ul>
+                </li>
+                <li><b>Pistas</b>
+                    <!--Lista desordenada-->
+                    <ul>
+                        <li>Cada dígito (<span class="destacadoRojo">del 1 al 6</span>) marca la casilla inicial del nombre de un ave.</li>
+                        <li>El orden de las imágenes de las aves en el panel inferior no se corresponde con los números que aparecen en el crucigrama.</li>
+                        <li>Haciendo clic en cada figura se os mostrará una pista (la letra por la que comienza y, quizás, alguna más).</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <!--Segundo div-->
+        <div id="imagenes">
+            <abbr title="Ave grande que no vuela, sino que es corredora."><img  onclick="mensaje01()" src="Imagenes/avestruz.gif" alt="Avestruz"></abbr>
+            <abbr title="Se crían principalmente por su carne y por sus huevos."><img onclick="mensaje02()" src="Imagenes/gallo.gif" alt="Avestruz"></abbr>
+            <abbr title="Tienen alas finas, acentuadas, que les permiten alcanzar velocidades extremadamente altas."><img onclick="mensaje03()" src="Imagenes/halcon.gif" alt="Avestruz"></abbr>
+            <abbr title="Son aves anseriformes acuáticas de pico aplanado."><img onclick="mensaje04()" src="Imagenes/pato.gif" alt="Avestruz"></abbr>
+            <abbr title="También se conoce como zorzal"><img onclick="mensaje05()" src="Imagenes/tordo.gif" alt="Avestruz"></abbr>
+            <abbr title=" Ave galliforme de unos 60 cm de altura, de plumaje pardo negruzco, patas y pico negros."><img onclick="mensaje06()" src="Imagenes/urogallo.gif" alt="Avestruz"></abbr>
+        </div>
+        <hr>
+        <!--Tercer div-->
+        <div id="crucigrama">
+            <table>
+                <!--Primera fila-->
+                <tr>
+                    <td><sup>1</sup></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><sup>2</sup></td>
+                    <td></td>
+                    <td><sup>3</sup></td>
+                    <td></td>
+                </tr>
+                <!--Segunda fila-->
+                <tr>
+                    <td class="sombra" rowspan="2" colspan="4"></td>
+                    <td></td>
+                    <td class="sombra" rowspan="3"></td>
+                    <td></td>
+                    <td class="sombra" rowspan="7"></td>
+                </tr>
+                <!--Tercera fila-->
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--Cuarta fila-->
+                <tr>
+                    <td class="sombra"></td>
+                    <td><sup>4</sup></td>
+                    <td class="sombra" colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--Quinta fila-->
+                <tr>
+                    <td><sup>5</sup></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--Sexta fila-->
+                <tr>
+                    <td class="sombra" rowspan="3"></td>
+                    <td></td>
+                    <td class="sombra" rowspan="2" colspan="4"></td>
+                    <td></td>
+                </tr>
+                <!--Septima fila-->
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--Octava fila-->
+                <tr>
+                    <td></td>
+                    <td class="sombra"></td>
+                    <td><sup>6</sup></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <!--Creamos el boton para ir a la otra página-->
+        </div>
+        <div class="enlace">
+        <a href="ExamenSol2020.html" class="button">Ver la solución</a>
+        </div>
+    </body>
+</html>
