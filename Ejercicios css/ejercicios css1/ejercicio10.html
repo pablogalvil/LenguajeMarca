@@ -7,12 +7,20 @@
         <meta name='description' content='Ejercicio UD1 número 10' >
         <meta name='keywords' content='código HTML CSS'>
         <title>CICLO SUPERIOR ASIR</title>
+        <!--Link para poner el icono de la página-->
         <link rel="icon" type="imagenes/x-icon" href="imagenes/paloma.ico">
+        <!--Link para el archivo CSS-->
+        <link rel="stylesheet" href="css/estiloTareaUD2_01.css" type="text/css">
+        <!--CSS dentro del html-->
         <style >
-                img {border : 2px blue ridge;}
-                a {font-size: 1.3em;
+                img {
+                    border : 12px blue ridge;
+                }
+                a {
+                    font-size: 1.3em;
                     margin:20px;
-                    padding: 20px;}
+                    padding: 20px;
+                }
         </style>
     </head>
     <!--  CUERPO DE LA PÁGINA WEB   --> 
@@ -23,18 +31,30 @@
                 usemap="#articulosFoto" 
                 alt="Artículos fotografía" style="width: 500px; height: 315px;">
         <map name="articulosFoto" id="articulosFoto">
+            <!--He puesto las coordenadas como dice el ejercicio, pero aun asi quedan mal por el margin, el padding y el borde-->
             <area alt="Impresora láser" title="Impresora láser" href="#Impresora_laser" coords="51.5,292,56,297.5,156,298,162.5,290,162,273,150.5,242,134,238,132.5,206,82.5,203.5,80.5,238.5,65,240,52.5,270" shape="poly">
             <area alt="Compresor de aire" title="Compresor de aire" href="#Compresor_de_aire" coords="215.5,103,43" shape="circle">
             <area alt="Válvula antiretorno" title="Válvula antiretorno" href="#Valvula_antirretorno" coords="354.5,168,466.5,55.5" shape="rect">
             <area alt="Panel solar" title="Panel solar" href="#Panel_solar" coords="337,271.5,415.5,271.5,493,193,492,185,415,184,337,261" shape="poly">
         </map>
+        <!--Primer div-->
         <div>
-            <h2>Tarea 2 - 1ª</h2>
+            <h2 id="inicio">Tarea 2 - 1ª Pablo Galán Villanueva</h2>
+            <ul>
+                <li><a href="#Valvula_antirretorno">Válvula antiretorno</a></li>
+                <li><a href="#Compresor_de_aire">Compresor de aire</a></li>
+                <li><a href="#Impresora_laser">Impresora láser</a></li>
+                <li><a href="#Panel_solar">Panel solar</a></li>
+            </ul>
         </div>
+        <!--Segundo div-->
         <div>
             <h3 id="Valvula_antirretorno">VÁLVULA ANTIRRETORNO</h3>
             <p>
                 <abbr title="Valvula Antirretorno"><strong>VAR</strong></abbr>
+            </p>
+            <p>
+                Creadas en <span class="fecha">1978</span>
             </p>
             <p>
                 <strong><em>Las válvulas antirretorno</em></strong>, también llamadas válvulas de retención, válvulas uniflujo o válvulas check, tienen por objetivo cerrar por completo el paso de un <em>fluido en circulación</em> -bien sea gaseoso o líquido- en un sentido y dejar paso libre en el contrario. Tiene la ventaja de un recorrido mínimo del disco u obturador a la posición de apertura total.
@@ -51,10 +71,14 @@
             <!-- ******************************************************************************** -->
 
             <!-- ******************************************************************************** -->
+        <!--Tercer div-->
         <div>
             <h3 id="Compresor_de_aire">COMPRESOR DE AIRE</h3>
             <p>
                 <abbr title="Compresor de Aire"><strong>CDA</strong></abbr>
+            </p>
+            <p>
+                Creadas en <span class="fecha">1829</span>
             </p>
             <p>
                 <strong><em>Un compresor de aire</em></strong> es un dispositivo neumático que convierte la energía (usando <strong><em>un motor eléctrico, un motor diésel o de gasolina</em></strong>, etc.) en energía potencial almacenada en aire presurizado (es decir, aire comprimido). Mediante uno de varios métodos, un compresor de aire fuerza cada vez más aire al interior de un tanque de almacenamiento, aumentando la presión.
@@ -63,7 +87,7 @@
                 La energía contenida en el aire comprimido se puede utilizar para una variedad de aplicaciones, utilizando la energía cinética del aire a medida que se libera y el tanque se despresuriza. Cuando la presión del tanque alcanza su límite inferior, el compresor de aire se enciende nuevamente y vuelve a presurizar el <em>tanque</em>. <strong><em>Un compresor de aire</em></strong> debe diferenciarse de una bomba porque funciona con cualquier gas/aire, mientras que las bombas funcionan con un líquido.
             </p>
             <p>
-                <strong><em>Los compresores de aire</em></strong> tienen diversos usos, incluyendo: suministro de aire limpio a alta presión para llenar <em>tanques de gas</em>, suministro de aire limpio a presión moderada a un buzo sumergido con suministro de superficie, suministro de aire limpio a presión moderada para impulsar algunas válvulas del sistema de control <abbr><strong>HVAC</strong></abbr> neumático de <em>edificios de oficinas y escuelas</em>, suministrando una gran cantidad de aire a presión moderada para impulsar herramientas neumáticas, como <strong><em>martillos neumáticos</em></strong>, llenar tanques de aire a alta presión <abbr><strong>(HPA)</strong></abbr>, para llenar neumáticos y producir grandes volúmenes de aire a presión moderada para procesos industriales a gran escala (como oxidación para coquización de petróleo o sistemas de purga de bolsas de plantas de cemento).
+                <strong><em>Los compresores de aire</em></strong> tienen diversos usos, incluyendo: suministro de aire limpio a alta presión para llenar <em>tanques de gas</em>, suministro de aire limpio a presión moderada a un buzo sumergido con suministro de superficie, suministro de aire limpio a presión moderada para impulsar algunas válvulas del sistema de control <abbr title="HVAC"><strong>HVAC</strong></abbr> neumático de <em>edificios de oficinas y escuelas</em>, suministrando una gran cantidad de aire a presión moderada para impulsar herramientas neumáticas, como <strong><em>martillos neumáticos</em></strong>, llenar tanques de aire a alta presión <abbr title="High Pressure Air"><strong>(HPA)</strong></abbr>, para llenar neumáticos y producir grandes volúmenes de aire a presión moderada para procesos industriales a gran escala (como oxidación para coquización de petróleo o sistemas de purga de bolsas de plantas de cemento).
             </p>
         </div>
             <!-- ******************************************************************************** -->
@@ -72,40 +96,53 @@
             <!-- ******************************************************************************** -->
 
             <!-- ******************************************************************************** -->
+        <!--Cuarto div-->
         <div>
             <h3 id="Impresora_laser">IMPRESORA LÁSER</h3>
             <p>
                 <abbr title="Impresora Láser"><strong>ISL</strong></abbr>
             </p>
             <p>
-                Inventada por <strong><em>Gary Starkweather</em></strong> durante la década de 1973 y comercializada por primera vez en 1977, el dispositivo de impresión consta de un tambor fotoconductor unido a un depósito de tóner y un haz láser que es modulado y proyectado a través de un disco especular hacia el tambor fotoconductor. El giro del disco provoca un barrido del haz sobre la generatriz del tambor.
+                Creadas en <span class="fecha">1969</span>
             </p>
             <p>
-                Para la impresión láser monocroma se hace uso de un único tóner. Si la impresión es en color es necesario contar con cuatro (uno por cada color base, CMYK). Las impresoras láser son muy eficientes, y permiten impresiones de alta calidad a notables velocidades, medidas en términos de "páginas por minuto" <abbr><strong>(ppm)</strong></abbr>.
+                Inventada por <strong><em>Gary Starkweather</em></strong> durante la década de <span class="fecha">1973</span> y comercializada por primera vez en <span class="fecha">1977</span>, el dispositivo de impresión consta de un tambor fotoconductor unido a un depósito de tóner y un haz láser que es modulado y proyectado a través de un disco especular hacia el tambor fotoconductor. El giro del disco provoca un barrido del haz sobre la generatriz del tambor.
             </p>
             <p>
-                Este tipo de tecnologías para imprimir puede diferenciarse a partir del balance entre calidad y velocidad de impresión. En cada uno de estos rubros, la tecnología láser se destaca por las prestaciones que alcanza: la calidad de impresión láser supera a la impresión por inyección de tinta; en términos de velocidad, algunas imprimen hasta 12 páginas en color por minuto, mientras otras alcanzan hasta 27 páginas por minuto en impresiones monocromáticas, lo que demuestra el grado de velocidad que estos dispositivos han alcanzado en poco más de 30 años. Si bien es cierto que supera a los modelos de tinta en calidad, hay que considerar que los recambios de las impresoras láser suelen ser más caros para la impresión constante de imágenes. Es por esto que acostumbran a ser más recomendadas para un volumen elevado de documentos en oficinas y lugares de trabajo.
+                Para la <strong><em>impresión láser monocroma</em></strong> se hace uso de un único tóner. Si la impresión es en color es necesario contar con cuatro (uno por cada color base, <abbr title="CMYK"><strong>CMYK</strong></abbr>). Las impresoras láser son muy eficientes, y permiten impresiones de alta calidad a notables velocidades, medidas en términos de "páginas por minuto" <abbr title="páginas por minuto"><strong>(ppm)</strong></abbr>.
+            </p>
+            <p>
+                Este tipo de tecnologías para imprimir puede diferenciarse a partir del balance entre calidad y velocidad de impresión. En cada uno de estos rubros, la tecnología láser se destaca por las prestaciones que alcanza: la calidad de impresión láser supera a la impresión por inyección de tinta; en términos de velocidad, algunas imprimen hasta <span class="numero">12</span> páginas en color por minuto, mientras otras alcanzan hasta <span class="numero">27</span> páginas por minuto en <em>impresiones monocromáticas</em>, lo que demuestra el grado de velocidad que estos dispositivos han alcanzado en poco más de <span class="numero">30</span> años. Si bien es cierto que supera a los modelos de tinta en calidad, hay que considerar que los recambios de las impresoras láser suelen ser más caros para la impresión constante de imágenes. Es por esto que acostumbran a ser más recomendadas para un volumen elevado de documentos en oficinas y lugares de trabajo.
             </p>
         </div>
             <!-- ******************************************************************************** -->
             <a href="#inicio">Ir arriba</a>       
             <!-- ******************************************************************************** -->
+        <!--Quinto y ultimo div-->
         <div>
             <h3 id="Panel_solar">PANEL SOLAR</h3>
             <p>
-                Un panel solar, placa solar o módulo solar es un dispositivo que capta la energía de la radiación solar para su aprovechamiento. El término comprende a los colectores solares, utilizados usualmente para producir agua caliente doméstica mediante energía solar térmica, y a los paneles fotovoltaicos, utilizados para generar electricidad mediante energía solar fotovoltaica.
+                <abbr title="Panel solar"><strong>PS</strong></abbr>
             </p>
             <p>
-                Un calentador solar de agua usa la energía del sol para calentar un líquido, el cual transfiere el calor hacia un depósito acumulador de calor. Estos equipos pueden ser principalmente de dos tipos, los colectores solares, que son equipos donde el agua circula a través de ellos para su calentamiento, pero esta no es almacenada en el calentador solar.
+                Creado en <span class="fecha">1883</span>
             </p>
             <p>
-                Muchas veces en estos sistemas se instala un tanque en el interior del hogar o industria para el almacenamiento del agua caliente. El otro tipo son los termo solares, también llamados calefones solares o termotanques solares. En estos equipos el agua también es almacenada para poder ser utilizada por ejemplo por la noche cuando no se dispone de la energía solar.2​ Es una manera simple y efectiva de aprovechar la energía solar.
+                Un <strong><em>panel solar</em></strong>, placa solar o módulo solar es un dispositivo que capta la energía de la radiación solar para su aprovechamiento. El término comprende a los colectores solares, utilizados usualmente para producir agua caliente doméstica mediante energía solar térmica, y a los paneles fotovoltaicos, utilizados para generar electricidad mediante energía solar fotovoltaica.
             </p>
             <p>
-                Paneles fotovoltaicos
-            <p>
-                Los paneles fotovoltaicos o placas fotovoltaicas, están formados por numerosas celdas que convierten la luz solar en electricidad. Las celdas a veces son llamadas células fotovoltaicas. Estas celdas dependen del efecto fotovoltaico porque la energía lumínica produce cargas positiva y negativa en dos semiconductores próximos de diferente tipo, produciendo así un campo eléctrico capaz de generar una corriente.
+                Un <strong><em>calentador solar de agua</em></strong> usa la energía del sol para calentar un líquido, el cual transfiere el calor hacia un depósito acumulador de calor. Estos equipos pueden ser principalmente de dos tipos, los colectores solares, que son equipos donde el agua circula a través de ellos para su calentamiento, pero esta no es almacenada en el calentador solar.
             </p>
-        </div>    
+            <p>
+                Muchas veces en estos sistemas se instala un tanque en el <em>interior del hogar</em> o industria para el almacenamiento del agua caliente. El otro tipo son los termo solares, también llamados calefones solares o termotanques solares. En estos equipos el agua también es almacenada para poder ser utilizada por ejemplo por la noche cuando no se dispone de la energía solar.2​ Es una manera simple y efectiva de aprovechar la energía solar.
+            </p>
+            <p>
+                <strong><em>Paneles fotovoltaicos</em></strong>
+            </p>
+            <p>
+                Los <strong><em>paneles fotovoltaicos o placas fotovoltaicas</em></strong>, están formados por <em>numerosas celdas</em> que convierten la luz solar en electricidad. Las celdas a veces son llamadas células fotovoltaicas. Estas celdas dependen del efecto fotovoltaico porque la energía lumínica produce cargas positiva y negativa en dos semiconductores próximos de diferente tipo, produciendo así un campo eléctrico capaz de generar una corriente.
+            </p>
+        </div>
+        <!--Termina el ejercicio-->    
     </body>
 </html>
