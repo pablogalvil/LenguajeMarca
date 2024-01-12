@@ -1,0 +1,84 @@
+img{
+    margin: 10px;
+    padding: 20px;
+}
+h3{
+    color: blue;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+div{
+    border-color: blue;
+    border-width: 1px;
+    border: solid;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 20px;
+}
+.flechaFija img  { 
+    margin:   10px;
+    padding : 5px;
+    border:   3px blue ridge;
+    height:   30px;
+    width: 10px;
+    z-index:  0;
+}
+div.flechaFija   {
+    max-width: 50px;
+    min-width: 50px;
+    visibility: visible;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 0;
+    bottom: 80px;
+    right:  20px; 
+    border: 1px black ridge;
+    background-color: lightgray;
+    padding: 0px 0px;
+    margin:  0px 0px 0px 0px;
+    box-shadow:  5px 5px 5px #888888;
+}
+div.flechaFija:hover  {
+    opacity: 0.9;
+}
+#flechaArriba  {
+   z-index:0;
+}
+#flechaAbajo  {
+    z-index:0;
+    rotate: 180(degrees);
+ }
+div.naranja{
+    background-color: orangered;
+    position: relative;
+    left: -25px;
+    margin-right: -25px;
+}
+span.fecha{
+    font-weight: 700;
+    font: italic;
+    color: #600000;
+}
+span.numero{
+    font-weight: 600;
+    color: #00008b;
+}
+ul{
+    list-style-type: square;
+}
