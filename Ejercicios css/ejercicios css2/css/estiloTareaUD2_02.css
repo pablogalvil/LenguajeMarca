@@ -18,8 +18,8 @@ p{
 }
 div{
     border-color: blue;
-    border-width: 1px;
-    border: solid;
+    border-width: 2px;
+    border-style: solid;
     background-color: lightgrey;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -42,27 +42,31 @@ div{
 div.flechaFija   {
     max-width: 50px;
     min-width: 50px;
+    max-height: 70px;
     visibility: visible;
     opacity: 0.5;
     position: fixed;
-    z-index: 0;
-    bottom: 80px;
-    right:  20px; 
+    z-index: 0; 
     border: 1px black ridge;
     background-color: lightgray;
     padding: 0px 0px;
     margin:  0px 0px 0px 0px;
     box-shadow:  5px 5px 5px #888888;
 }
+
 div.flechaFija:hover  {
     opacity: 0.9;
 }
 #flechaArriba  {
-   z-index:0;
+    z-index:0;
+    bottom: 80px;
+    right:  20px;
 }
 #flechaAbajo  {
     z-index:0;
-    rotate: 180(degrees);
+    top: 80px;
+    right: 20px;
+    transform: rotate(180deg);
  }
 div.naranja{
     background-color: orangered;
@@ -81,4 +85,14 @@ span.numero{
 }
 ul{
     list-style-type: square;
+}
+td.vertical {
+    width:1.5em;
+    color :blue;
+    font-weight: 600;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: darksalmon ;
+    text-align: center;
+    vertical-align: middle; 
 }
