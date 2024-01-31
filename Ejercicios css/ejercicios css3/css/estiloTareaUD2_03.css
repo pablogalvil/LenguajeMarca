@@ -1,3 +1,12 @@
+/*He hecho cambios en el css en función de lo que necesitaba, si ves
+medidas de width, padding, margin, etc, que te parecen extrañas están
+hechas así para adaptarlas a los distintos div que he creado*/
+
+/*Por otro lado, los colores pueden no ser exactos, pero son los más
+parecidos que hemos conseguido, obviamente utilizando la herramienta
+que te enseñamos en clase*/
+
+/*Imagen de fondo*/
 body{
     background-image: url("../imagenes/fondo.jpeg");
     background-repeat: no-repeat;
@@ -5,17 +14,21 @@ body{
     hyphens: auto;
     text-align: justify;
 }
+/*Número de la ficha, el texto arriba del cartel*/
 h1 {
     text-align: center;
     font-weight: bold;
     color: #090165;
     margin-bottom: 0px;
 }
+/*Clase para el div que contiene la página, necesario para usar el grid*/
 .main{
     display: block;
     width: 800px;
     margin: auto;
 }
+/*Este div está puesto con respecto al monitor de clase, puede que no salga bien el texto en
+un monitor diferente ya que en el mio personal no sale igual*/
 div.autores{
     transform: rotate(180deg);
     vertical-align:middle;
@@ -28,7 +41,7 @@ div.autores{
     font-weight: bold;
     margin-left: -32px;
 }
-
+/*Div del texto azul primero con las especificaciones de la pagina*/
 div.azulTexto{
     background-color: #01a0c6;
     color: white;
@@ -38,6 +51,7 @@ div.azulTexto{
     padding: 10px;
     margin-bottom: 10px;
 }
+/*Div principal del fondo celeste y blanco*/
 div.datos{
     border-style: solid;
     border-color: #245c38;
@@ -45,6 +59,7 @@ div.datos{
     width: 35%;
     height: 65%;
 }
+/*Clase para el fondo celeste en el div datos, está posicionado el segundo a la izquierda*/
 .fondoCeleste{
     background-color: #00adf0;
     color: white;
@@ -52,13 +67,17 @@ div.datos{
     margin: 0px;
     font-size: 12px;
 }
+/*Para el icono al lado del texto en el parrafo con fondo celeste*/
 p.fondoCeleste:before{
     color: white;
     content: '\220E';
     margin-right: 10px;
 }
+/*Clase para el fondo blanco en el div datos, al igual que el anterior //
+He ajustado el padding para que se adecue el div con la longitud del resto,
+lo escribo por si te resulta extraño el numero*/
 .fondoBlanco{
-    padding: 12px;
+    padding: 13px;
     background: linear-gradient(to right, #e3e2e4 6%, white 10%);
     background-size: 5px 100%;
     color: #29206d;
@@ -66,11 +85,13 @@ p.fondoCeleste:before{
     text-align: center;
     margin: 0px;
 }
+/*Clase de la primera imagen*/
 img.montana{
     display: grid;
     float: right;
     width: 490px;
 }
+/*Clase de la segunda imagen*/
 img.mapa{
     width: 300px;
     height: 200px;
@@ -80,6 +101,7 @@ img.mapa{
     right: 0px;
     margin-left: 10px;
 }
+/*Div verde que contiene el nombre de la zona*/
 div.verde{
     background-color: #005723;
     display: grid;
@@ -87,11 +109,20 @@ div.verde{
     width: 490px;
     margin-top: 10px;
 }
+/*Clase para el span del nombre de la zona*/
 span.sierra{
     font-size:x-large;
+    font-weight: bolder;
     padding: 10px;
     color: white;
 }
+/*Clase para el texto en amarillo debajo de sierra*/
+span.amarillo{
+    color: yellow;
+    padding: 10px;
+    font-size:small;
+}
+/*Div con fondo negro que contiene la fecha*/
 div.negro{
     background-color: #000000;
     color: white;
@@ -104,11 +135,13 @@ div.negro{
     font-style: italic;
     font-weight: bold;
 }
+/*Div con la descripción de la actividad*/
 div.texto{
     display: grid;
     float: right;
     width: 500px;
 }
+/*Div que dice donde desayunarán*/
 div.rojo{
     background-color: #fe0000;
     font-weight: bold;
@@ -119,36 +152,38 @@ div.rojo{
     text-align: center;
     border-radius: 15px;
 }
+/*Div con recomendaciones y consejos*/
 div.carne{
     background-color: #ffe5e6;
     display: grid;
     float: right;
-    width: 495px;
+    width: 480px;
     border-style: solid;
     border-radius: 20px;
     border-color: #1c1751;
     margin-top: 5px;
-    
+    padding: 0px 5px 10px 10px;
 }
+/*Div con especificaciones al final*/
 div.morado{
     background-color: #0c0062;
     color: white;
     display: grid;
-    width: 800px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 780px;
+    padding: 5px 5px 15px 15px;
     margin-top: 10px;
 }
+/*Clase para las palabras en negrita y cursiva*/
 span.negraCursi{
     font-style: italic;
     font-weight: bold;
 }
+/*Clase para la oración "BREVE DESCRIPCIÓN"*/
 span.negra{
     font-weight: bold;
     text-align: center;
 }
-span.amarillo{
-    color: yellow;
-    padding: 10px;
-    font-size:small;
+/*Clase para las palabras en rojo*/
+span.textoRojo{
+    color: #fe0000;
 }
