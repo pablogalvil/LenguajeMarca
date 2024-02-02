@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+#div-formulario{
+    width: 200px;
+    margin: auto;
+    border: solid;
+    border-color: aqua;
+    padding: 20px;
+    background-color: bisque;
+}
+input.borde-redondo{
+    border-radius: 10px;
+}
+input.entrada{
+    background-color: aliceblue;
+    border: solid;
+    border-color: aqua;
+    border-radius: 10px;
+}
+input.entrada:focus{
+    border: solid;
+    border-width: 5px;
+    border-color: red;
+    padding: 8px;
+}
+#boton-aceptar{
+    background-color: aqua;
+}
