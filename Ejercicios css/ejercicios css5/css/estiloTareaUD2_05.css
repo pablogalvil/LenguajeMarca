@@ -1,0 +1,29 @@
+body{
+        
+}
+div.azulC{
+    text-align: justify;
+    background-color: #e6fff7;
+}
+div.divCiudad{
+    background-image: url("../imagenes/ciudad9.jpg");
+}
+@keyframes coche{
+    0%{
+        
+    }
+
+}
+img.helicoptero{
+    animation: helicoptero 10s infinite;
+    overflow: hidden;
+}
+@keyframes helicoptero{
+    0%   {left: 999px; top: 999px;}
+    25%   {left: 999px; top: 999px;} 
+    40%   {left: 999px; top: 999px;}
+    60%   {left: 999px; top: 999px;}
+    75%   {left: 999px; top: 999px;}   
+  100%     {left: -999px; top: 999px; }
+  
+}
