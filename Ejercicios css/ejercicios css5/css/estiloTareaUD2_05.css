@@ -1,5 +1,5 @@
 body{
-        
+    hyphens: auto;
 }
 div.azulC{
     text-align: justify;
@@ -7,6 +7,40 @@ div.azulC{
 }
 div.divCiudad{
     background-image: url("../imagenes/ciudad9.jpg");
+}
+div#cabecera{
+    position: absolute;
+    width: 750px;
+    top: 0px;
+    left: 50px;
+}
+@font-face{
+    font-family: Kavivanar;
+    src: url(../fuentes/Kavivanar-Regular.ttf), url(../fuentes/OFL\(Kav\).txt);
+}
+p.parrafo1{
+    font-family: Kavivanar;
+}
+@font-face{
+    font-family: Playball;
+    src: url(../fuentes/Playball-Regular.ttf), url(../fuentes/OFL\(Play\).txt);
+}
+p.parrafo2{
+    font-family: Playball;
+}
+@font-face{
+    font-family: Parisienne;
+    src: url(../fuentes/Parisienne-Regular.ttf), url(../fuentes/OFL\(Paris\).txt);
+}
+p.parrafo3{
+    font-family: Parisienne;
+}
+div.normasCirculacion{
+    position: absolute;
+    width: 700px;
+    top: 650px;
+    left: 50px;
+    overflow: hidden;
 }
 @keyframes coche{
     0%{
@@ -26,4 +60,8 @@ img.helicoptero{
     75%   {left: 999px; top: 999px;}   
   100%     {left: -999px; top: 999px; }
   
+}
+@font-face {
+    font-family: FasterOne;
+    src: url(../fuentes/FasterOne-Regular.ttf), url(../fuentes/OFL\(Fast\).txt);
 }
