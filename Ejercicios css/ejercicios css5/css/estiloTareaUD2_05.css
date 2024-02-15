@@ -1,9 +1,11 @@
+/*Estilos del body, para el hyphens y el tipo de letra entre otros*/
 body{
     margin: auto;
     hyphens: auto;
     font-family: Verdana, sans-serif;
     text-align: justify;
 }
+/*Estilos del primer div*/
 div#cabecera{
     position: absolute;
     width: 750px;
@@ -11,6 +13,7 @@ div#cabecera{
     left: 50px;
     text-align: center;
 }
+/*Estilos del div con la imagen de la ciudad*/
 div#divCiudad{
     background-image: url(../imagenes/ciudad9.jpg);
     background-size: 750px 450px;
@@ -28,10 +31,8 @@ div#divCiudad{
     animation-iteration-count: infinite;
     animation-duration: 4s;
     animation-timing-function: linear;
-    
-    
-    
 }
+/*Estilos del div con las normas de circulación*/
 div#normasCirculacion{
     background-color: #e6fff7;
     position: absolute;
@@ -44,12 +45,13 @@ div#normasCirculacion{
     column-width: 200px;
     column-gap: 30px;
     column-rule: 1px solid lightgray;
-    
 }
+/*Añadimos la fuente kavivanar para el primer párrafo*/
 @font-face{
     font-family: Kavivanar;
     src: url(../fuentes/Kavivanar-Regular.ttf), url(../fuentes/OFL\(Kav\).txt);
 }
+/*Estilos párrafo 1*/
 p.parrafo1{
     font-family: Kavivanar;
     color: #008080;
@@ -60,50 +62,59 @@ p.parrafo1{
     margin-top: 0px;
     margin-bottom: -20px;
 }
+/*Añadimos la fuente Playball para el segundo párrafo*/
 @font-face{
     font-family: Playball;
     src: url(../fuentes/Playball-Regular.ttf), url(../fuentes/OFL\(Play\).txt);
 }
+/*Estilos párrafo 2*/
 p.parrafo2{
     font-family: Playball;
     font-size: 25px;
     font-style: italic;
     margin-bottom: -20px;
 }
+/*Añadimos la fuente Parisienne para el tercer párrafo*/
 @font-face{
     font-family: Parisienne;
     src: url(../fuentes/Parisienne-Regular.ttf), url(../fuentes/OFL\(Paris\).txt);
 }
+/*Estilos párrafo 3*/
 p.parrafo3{
     font-family: Parisienne;
     font-size: 25px;
     font-style: italic;
     color: blue;
 }
+/*Estilos imagen semáforo 1*/
 img.semaforo1{
     position: absolute;
     width: 10%;
     bottom: 95px;
     left: 15%;
 }
+/*Estilos imagen semáforo 2*/
 img.semaforo2{
     position: absolute;
     width: 10%;
     bottom: 95px;
     right: 25%;
 }
+/*Estilos imagen paso de cebra 1*/
 img.pasoCebra1{
     position: absolute;
     width: 19%;
     bottom: -20px;
     left: 15%;
 }
+/*Estilos imagen paso de cebra 2*/
 img.pasoCebra2{
     position: absolute;
     width: 19%;
     bottom: -20px;
     right: 15%;
 }
+/*Estilos imagen coche 1*/
 img.coche{
     bottom: 45px;
     position: absolute;
@@ -116,6 +127,7 @@ img.coche{
     overflow: hidden;
     animation-timing-function: linear;
 }
+/*Estilos imagen coche 2*/
 img.coche2{
     animation-name: coche2;
     bottom: 2px;
@@ -128,6 +140,7 @@ img.coche2{
     overflow: hidden;
     animation-timing-function: linear;
 }
+/*Estilos imagen helicoptero*/
 img.helicoptero{
     position: absolute;
     animation: mueveHelicoptero 5s infinite;
@@ -138,6 +151,7 @@ img.helicoptero{
     animation-range-start: right;
     animation-timing-function: linear;
 }
+/*Estilos imagen bici 1*/
 img.bici1{
     animation-name: bici1;
     bottom: 85px;
@@ -150,6 +164,7 @@ img.bici1{
     overflow: hidden;
     animation-timing-function: linear;
 }
+/*Estilos imagen bici 2*/
 img.bici2{
     animation-name: bici2;
     bottom: 85px;
@@ -163,6 +178,7 @@ img.bici2{
     overflow: hidden;
     animation-timing-function: linear;
 }
+/*Estilos imagen moto*/
 img.moto{
     position: absolute;
     bottom: 0px;
@@ -175,6 +191,7 @@ img.moto{
     overflow: hidden;
     animation-timing-function: linear;
 }
+/*Movimientos coche 1*/
 @keyframes coche{
     0%{
     right: 900px;
@@ -182,6 +199,7 @@ img.moto{
         right: -200px;
     }
 }
+/*Movimientos coche 2*/
 @keyframes coche2{
     0%{
     left: 900px;
@@ -189,7 +207,7 @@ img.moto{
         left: -200px;
     }
 }
-
+/*Movimientos helicoptero*/
 @keyframes mueveHelicoptero{
     0% {
         right: -100px;
@@ -197,17 +215,21 @@ img.moto{
     }25%{
         top: 150px;
         transform: rotateY(2500deg);
+        width: 40%;
     }50%{
         top: 0px;
         transform: rotateY(0deg);
+    width: 15%;
     }75%{
         top: 150px;
         transform: rotateY(1500deg);
+        width: 50%;
     }100%{
         right: 999px;
+        width: 15%;
     }
-
 }
+/*Movimientos bici 1*/
 @keyframes bici1{
     0%{
         right: 900px;
@@ -220,9 +242,9 @@ img.moto{
         transform: rotate(-45deg);
     }100%{
         right: -100px;
-        
     }
 }
+/*Movimientos bici 2*/
 @keyframes bici2{
     0%{
         right: 1000px;
@@ -238,6 +260,7 @@ img.moto{
         right: -100px;
     }
 }
+/*Movimientos moto*/
 @keyframes moto{
     0%{
         right: -150px;
@@ -254,6 +277,7 @@ img.moto{
         right: 999px;
     }
 }
+/*Movimientos borde de la imagen de ciudad*/
 @keyframes borde{
     0%{
         border-color: red;
@@ -270,13 +294,14 @@ img.moto{
     }100%{
         border-color: green;
         box-shadow:5px 5px green;
-
     }
 }
+/*Creamos la fuente FasterOne para el título h3*/
 @font-face {
     font-family: FasterOne;
     src: url(../fuentes/FasterOne-Regular.ttf), url(../fuentes/OFL\(Fast\).txt);
 }
+/*Estilos título h3*/
 h3{
     font-family: FasterOne;
 }
