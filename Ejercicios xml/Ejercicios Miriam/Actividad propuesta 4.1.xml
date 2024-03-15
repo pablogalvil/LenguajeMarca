@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<viaje_turistico>
+    <nombres>
+        <nombre>
+            Juan
+        </nombre>
+        <apellido>
+            Sánchez
+        </apellido>
+    </nombres>
+    <fecha_inicio>
+        10-03-2024.
+    </fecha_inicio>
+    <fecha_fin>
+        15-03-2024.
+    </fecha_fin>
+    <origen>
+        Cádiz.
+    </origen>
+    <destinos>
+        <ciudades>
+            <ciudad>
+                Sevilla.
+            </ciudad>
+            <ciudad>
+                Córdoba.
+            </ciudad>
+        </ciudades>
+        <hoteles>
+            <hotel>
+                Hotel las gambas.
+            </hotel>
+        </hoteles>
+        <numero_de_coches>
+            6.
+        </numero_de_coches>
+    </destinos>
+    <precio>
+        472 euros.
+    </precio>
+</viaje_turistico>

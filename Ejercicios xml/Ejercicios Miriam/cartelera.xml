@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<cartelera>
+    <titulos>
+        <titulo>
+            Por tus muertos.
+        </titulo>
+    </titulos>
+    <idiomas>
+        <idioma>
+            Español.
+        </idioma>
+    </idiomas>
+    <duraciones>
+        <duracio>
+            137 minutos.
+        </duracio>
+    </duraciones>
+    <horarios>
+        <horarios_pelicula>
+            14:35.
+            16:20.
+            18:40.
+        </horarios_pelicula>
+    </horarios>
+    <clasificaciones>
+        <clasificacion>
+            12 años.
+        </clasificacion>
+    </clasificaciones>
+</cartelera>

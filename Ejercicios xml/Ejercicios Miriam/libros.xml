@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<libros>
+    <titulos>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 1.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 2.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 3.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 4.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 5.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 6.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 7.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 8.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 9.
+        </titulo>
+        <titulo>
+            Gerónimo Stilton En el reino de la fantasía 10.
+        </titulo>
+    </titulos>
+    <autores>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+        <autor>
+            Elisabetta Dami
+        </autor>
+    </autores>
+    <editoriales>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+        <editorial>
+            PLANETA S.A.
+        </editorial>
+    </editoriales>
+    <colección>
+        Gerónimo Stilton.
+    </colección>
+</libros>
