@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<Contactos>
+    <Contacto>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Galán Villanueva</Apellidos>
+        <Direccion>Calle reminiscencia nº6</Direccion>
+        <Telefonos>
+            <Telefono_movil>653 921 834</Telefono_movil>
+            <Telefono_casa>927 372 934</Telefono_casa>
+            <Telefono_trabajo>923 374 834</Telefono_trabajo>
+        </Telefonos>
+    </Contacto>
+    <Contacto>
+        <Nombre>Sergio</Nombre>
+        <Apellidos>Pinto Morales</Apellidos>
+        <Direccion>Calle albaricoque nº5</Direccion>
+        <Telefonos>
+            <Telefono_movil>674 389 854</Telefono_movil>
+            <Telefono_casa>902 231 244</Telefono_casa>
+            <Telefono_trabajo>984 234 574</Telefono_trabajo>
+        </Telefonos>
+    </Contacto>
+    <Contacto>
+        <Nombre>Francisco José</Nombre>
+        <Apellidos>Sánchez Lloret</Apellidos>
+        <Direccion>Calle pintor nº2</Direccion>
+        <Telefonos>
+            <Telefono_movil>637 932 832</Telefono_movil>
+            <Telefono_casa>912 232 456</Telefono_casa>
+            <Telefono_trabajo>903 283 923</Telefono_trabajo>
+        </Telefonos>
+    </Contacto>
+</Contactos>

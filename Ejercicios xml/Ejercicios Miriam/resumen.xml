@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<XML>
+    <Definiciones>
+        <Definicion>
+            Formato universal para datos
+        </Definicion>
+        <Definicion>
+            Formato universal para estructura de datos
+        </Definicion>
+        <Definicion>
+            Permite el intercambio entre plataformas
+        </Definicion>
+        <Definicion>
+            <se_usa>
+                <uso>Hojas de Cálculo</uso>
+                <uso>Editores de texto</uso>
+                <uso>Directorios</uso>
+                <uso>Mapas</uso>
+                <uso>BD...</uso>
+            </se_usa>
+        </Definicion>
+    </Definiciones>
+    <tiene_una_Estructura>
+        <estructura>Lógica</estructura>
+        <estructura>Física</estructura>
+    </tiene_una_Estructura>
+    <Caracteristicas>
+        <Caracteristica>XML consta de una familia de tecnologías</Caracteristica>
+        <Caracteristica>XML no requiere licencias</Caracteristica>
+        <Caracteristica>XML es prolijo</Caracteristica>
+        <Caracteristica>XML está en formato texto</Caracteristica>
+        <Caracteristica>XML es relativamente nuevo</Caracteristica>
+        <Caracteristica>XML es un estándar</Caracteristica>
+        <Caracteristica>XML parece HTML pero no lo es</Caracteristica>
+    </Caracteristicas>
+</XML>

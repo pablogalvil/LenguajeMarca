@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<Almacenamiento_de_informacion>
+    <sistemas_habituales>
+        <BDR>
+            pueden representarse mediante
+            <Documentos tipo="XML">
+                para la transformación utiliza
+                <Reglas>De transformación relacional</Reglas>
+            </Documentos>
+        </BDR>
+        <BD00>
+        
+        </BD00>
+        <BD_nativas>
+        
+        </BD_nativas>
+        <Documentos tipo="XML">
+            usa como lenguaje de consulta consulta
+            <XQuery>
+                <se_encarga_de>
+                    Extraer información de un documento XML.
+                    <aplicandolo_en>
+                        Transformar estructuras XML.
+                    </aplicandolo_en>
+                    <aplicandolo_en>
+                        Ofrecer una alternativa a XSLT.
+                    </aplicandolo_en>
+                </se_encarga_de>
+                <es_un>
+                    Lenguaje funcional declarativo.
+                </es_un>
+                <soporta>
+                    XML-Schema y DTDs.
+                </soporta>
+                <soporta>
+                    Tipos simples.
+                </soporta>
+                <soporta>
+                    Tipos complejos.
+                </soporta>
+                <debe_ser_independiente_de>
+                    Protocolo de acceso al fichero de datos.
+                </debe_ser_independiente_de>
+                <debe_ser_independiente_de>
+                    La estructura del documento XML sobre el que se aplica.
+                </debe_ser_independiente_de>
+                <se_basa_en_la_utilizacion_de>
+                    <XPath></XPath>
+                    <Sentencias_FLWOR>
+                        <son>
+                            <FOR></FOR>
+                            <LET></LET>
+                            <WHERE></WHERE>
+                            <ORDER_BY></ORDER_BY>
+                            <RETURN></RETURN>
+                        </son>
+                    </Sentencias_FLWOR>
+                    <Funciones_de_agregacion></Funciones_de_agregacion>
+                </se_basa_en_la_utilizacion_de>
+            </XQuery>
+        </Documentos>
+    </sistemas_habituales>
+</Almacenamiento_de_informacion>

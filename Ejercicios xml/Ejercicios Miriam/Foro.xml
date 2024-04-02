@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Utf-8" ?>
+<Foro>
+    <proporcionan>
+        Discusiones de temas
+        <que_pueden_ser>
+            Comunes o informales
+            <a_traves_de>
+                Administrador
+            </a_traves_de>
+            <a_traves_de>
+                Usuarios
+            </a_traves_de>
+            <a_traves_de>
+                Moderador
+            </a_traves_de>
+        </que_pueden_ser>
+    </proporcionan>
+    <permiten_a>
+        La comunidad
+        <integrada_por>
+            Estudiantes, profesionales o cualquier persona
+            <en_sistemas_donde_puedan_participar>
+                Registrandose o de forma anónima
+            </en_sistemas_donde_puedan_participar>
+        </integrada_por>
+    </permiten_a>
+    <funciona_usando>
+        Normas apropiadas
+        <con>
+            Soportes técnicos
+            <tales_como>
+                <Mensajes_de_texto></Mensajes_de_texto>
+                <Multimedia></Multimedia>
+                <Webblog></Webblog>
+            </tales_como>
+        </con>
+    </funciona_usando>
+</Foro>
