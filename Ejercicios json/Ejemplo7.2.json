@@ -1,0 +1,24 @@
+{
+    "nombre":"paco",
+    "fecha-nacimiento":1934,
+    "lugar-nacimiento":"Italia",
+    "fecha-defuncion":1987,
+    "lugar-defuncion":"Italia",
+    "listado-obras":[
+        {
+            "titulo":"Cuadro 1",
+            "fecha-creacion":"1957",
+            "URL":"https://github.com/microsoft/cascadia-code/releases"
+        },
+        {
+            "titulo":"Cuadro 2",
+            "fecha-creacion":"1963",
+            "URL":"https://github.com/microsoft/cascadia-code/releases"
+        },
+        {
+            "titulo":"Cuadro 3",
+            "fecha-creacion":"1967",
+            "URL":"https://github.com/microsoft/cascadia-code/releases"
+        }
+    ]
+}
