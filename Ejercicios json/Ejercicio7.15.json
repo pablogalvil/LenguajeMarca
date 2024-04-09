@@ -4,51 +4,61 @@
             "ficcion":[
                 {
                     "autor":"juan",
-                    "titulo":"sad"
+                    "titulo":"sad",
+                    "fecha_lanzamiento":1932
                 },
                 {
-                    "autor":"aaa",
-                    "titulo":"asd"
+                    "autor":"jorge",
+                    "titulo":"asd",
+                    "fecha_lanzamiento":1932
                 }
             ],
             "terror":[
                 {
                     "autor":"paco",
-                    "titulo":"sad"
+                    "titulo":"sad",
+                    "fecha_lanzamiento":1932
                 },
                 {
-                    "autor":"aaa",
-                    "titulo":"asd"
+                    "autor":"aurora",
+                    "titulo":"asd",
+                    "fecha_lanzamiento":1932
                 }
             ],
             "romance":[
                 {
                     "autor":"manolo",
-                    "titulo":"sad"
+                    "titulo":"sad",
+                    "fecha_lanzamiento":1932
                 },
                 {
                     "autor":"sergio",
-                    "titulo":"asd"
+                    "titulo":"asd",
+                    "fecha_lanzamiento":1932
                 }
             ],
             "misterio":[
                 {
                     "autor":"diego",
-                    "titulo":"sad"
+                    "titulo":"sad",
+                    "fecha_lanzamiento":1932
                 },
                 {
                     "autor":"ivan",
-                    "titulo":"asd"
+                    "titulo":"asd",
+                    "fecha_lanzamiento":1932
                 }
             ],
             "policiaca":[
                 {
                     "autor":"jose",
-                    "titulo":"sad"
+                    "titulo":"sad",
+                    "fecha_lanzamiento":1932
                 },
                 {
                     "autor":"dario",
-                    "titulo":"asd"
+                    "titulo":"asd",
+                    "fecha_lanzamiento":1932
                 }
             ]
         }
